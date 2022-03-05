@@ -13,4 +13,7 @@ Next, all you have to do is run the python file, select the folder containing yo
 
 # Notes
 I will note that this was made for my steam install(s), so it may not work for Epic or Rockstar installs, i haven't tested it yet.
+
 This is also asumming you only have 3 folders, if you have multiple modded folders, the script may name them all to "GTAV - Modded".
+
+This is made for windows.
