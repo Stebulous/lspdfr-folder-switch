@@ -7,7 +7,7 @@ print(r'GTA Folder Switcher v0.1')
 root = Tk()
 root.withdraw()
 
-chosendir = filedialog.askdirectory(parent=root,initialdir="/",title='Please select your Steam Library common directory')
+chosendir = filedialog.askdirectory(parent=root,initialdir="/",title='Please select your Steam Library common directory') # You might find it quicker to replace this with chosendir = 'Path/To/steamapps/common/'
 
 try:
     current_dir = os.path.join(chosendir, r"Grand Theft Auto V")
